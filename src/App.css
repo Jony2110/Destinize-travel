@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1194px;
+  margin: 0 auto;
+  padding: 0;
+}
+.flexHeader{
+  
+    display: flex;
+    justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+  border-bottom: 2px solid #DFDFE0;
+}
+header input{
+  width: 530px;
+  height: 48px;
+  border-radius: 26px;
+  background-color: #F0F1F2;
+  margin: 12px 0;
+  border: none;
+
+}
+header select {
+  width: 167px;
+  height: 20px;
+  border: none;
+  font-size: 14px;
+  color: #9A9EA6;
+}
+button{
+  width: 48px;
+  height: 48px;
+  border-radius: 26px;
+  border: none;
+  background-color: #E3EBFD;
+}
+.box{
+  display: flex;
+  gap: 6px;
+}
+.boxFinish{
+  display: flex;
+  gap: 12px;
+}
+.sectionOne select{
+  border: none;
+  margin-left: 25px;
+  margin: 15px ;
+  width: 75px;
+  height: 18px;
+  color: #9A9EA6;
+}
+.sectionOneBox{
+  display: flex;
+
+  margin: 10px;
+  gap: 220px;
+}
+.sectionOneButton{
+  display: flex;
+  gap: 8px;
+}
+.sectionLeft h2{
+  font-size: 76px;
+  width: 658px;
+  margin-top: 120px;
+  color: #181e4b;
+}
+.sectionLeft h2 span{
+  color: #4475f2;
+}
+.sectionLeft p{
+  font-size: 16px;
+  max-width: 477px;
+
+  margin-top: 30px;
+}
+.buutonOne{
+  width: 198px;
+  height: 60px;
+  background-color: #4475f2;
+  color: #ffffff;
+}
+.buutonTwo{
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  
+}
+.sectionTwoButton{
+  margin-top: 34px;
+}
+.sectionTwoBox{
+  display: flex;
+}
+.sectionTrhBox{
+  display: flex;
+  gap: 90px;
+}
+
+.sectionFourLeft p{
+  font-size: 18px;
+  color: #4475f2;
+  
+}
+.sectionFourLeft h2{
+  margin-top: 13px;
+  font-size: 48px;
+}
+.sectionFourBox{
+  display: flex;
+  margin-top: 172px;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionFourRight{
+  font-size: 17px;
+  color: #4475f2;
+}
+.sectionFiveBox{
+  display: flex;
+
+}
+.sectionFiveBox img{
+  width: 330px;
+  height: 392px;
+  border-radius: 25px;
+}
